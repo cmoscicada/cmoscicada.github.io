@@ -2,4 +2,4 @@
 *.log
 #ignore jekyll cache
 .jekyll-cache/*
-
+*.swp

@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-22T13:17:25+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">github.io 블로그 시작하기</title><link href="http://0.0.0.0:4000/blog/first-post/" rel="alternate" type="text/html" title="github.io 블로그 시작하기" /><published>2020-01-22T00:00:00+00:00</published><updated>2020-01-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/blog/first-post</id><content type="html" xml:base="http://0.0.0.0:4000/blog/first-post/">&lt;p&gt;GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-23T01:41:43+09:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">Blog 세팅 플랜</title><link href="http://0.0.0.0:4000/blog/blog-todo/" rel="alternate" type="text/html" title="Blog 세팅 플랜" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/blog-todo</id><content type="html" xml:base="http://0.0.0.0:4000/blog/blog-todo/">&lt;p&gt;Blog set-up todo list&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;블로그 메뉴 구성하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/category-tag/&quot;&gt;카테고리 및 태그 목록 구성&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-disqus/&quot;&gt;블로그 댓글 기능 구성&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/custom-domain/&quot;&gt;커스텀 도메인 등록&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/set-font/&quot;&gt;한글 폰트 변경&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/google-search-console-and-analytics/&quot;&gt;구글 검색엔진 등록 및 분석 툴 적용&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/register-search-engine/&quot;&gt;네이버/다음/빙 엔진 등록&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/adsense/&quot;&gt;구글 에드센스&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">블로그 설정 TODO list</summary></entry><entry><title type="html">Docker reference articles</title><link href="http://0.0.0.0:4000/blog/2nd-post/" rel="alternate" type="text/html" title="Docker reference articles" /><published>2020-01-22T00:00:00+09:00</published><updated>2020-01-22T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/2nd-post</id><content type="html" xml:base="http://0.0.0.0:4000/blog/2nd-post/">&lt;p&gt;도커를 배우고, 설정해 나가면서 도움을 받았던 페이지들을 정리해 보려고 한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;docker-with-gui&quot;&gt;Docker with GUI&lt;/h2&gt;
+&lt;h3 id=&quot;movitation-inkscape&quot;&gt;Movitation: Inkscape&lt;/h3&gt;
+&lt;p&gt;우분투로 환경을 바꾸면서 Visio 툴을 대체할 것이 필요했다. 검색을 하다가 최종적으로 &lt;a href=&quot;https://inkscape.org/&quot;&gt;inkscape&lt;/a&gt; 툴로 정착하기로 하였다. Visio로는 주로 아래와 같은 작업들을 했었다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;논문 Figure
+    &lt;ul&gt;
+      &lt;li&gt;회로 스케메틱&lt;/li&gt;
+      &lt;li&gt;회로 시스템 블락 다이어그램&lt;/li&gt;
+      &lt;li&gt;그래프 / 표 작성&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;검색 끝에 이 익스텐션(&lt;a href=&quot;https://github.com/fsmMLK/inkscapeCircuitSymbols&quot;&gt;inkscapeCircuitSymbols&lt;/a&gt;) 을 찾았고, 내 요구사항을 충족시켜 줄 수 있을것이라 판단.&lt;/p&gt;
+
+&lt;h3 id=&quot;building-an-inkscape-docker-image&quot;&gt;Building an inkscape docker image&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/fsmMLK/inkscapeCircuitSymbols&quot;&gt;inkscapeCircuitSymbols&lt;/a&gt; 익스텐션이 계속 업데이트가 되지는 않을 것이기 때문에, 호환성을 맞추는 것이 중요할 것이다. 따라서 inkscape 셋업을 도커 이미지로 만들어서 사용하기로 했다.&lt;/p&gt;
+
+&lt;p&gt;inkscape 가 GUI 툴이기 때문에 &lt;a href=&quot;https://goodgodgd.github.io/ian-flow/archivers/docker-tutorial&quot;&gt;Docker with GUI Tutorial&lt;/a&gt; 페이지를 참조하여 세팅하였다.&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">도커 환경 설정에 도움을 받았던 블로그 게시글들</summary></entry><entry><title type="html">github.io 블로그 시작하기</title><link href="http://0.0.0.0:4000/blog/first-post/" rel="alternate" type="text/html" title="github.io 블로그 시작하기" /><published>2020-01-22T00:00:00+09:00</published><updated>2020-01-22T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/first-post</id><content type="html" xml:base="http://0.0.0.0:4000/blog/first-post/">&lt;p&gt;GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
 GitHub Blog 서비스의 이름은 Pages이다.&lt;/p&gt;
 
 &lt;p&gt;Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
@@ -12,6 +48,4 @@ GitHub Blog 서비스의 이름은 Pages이다.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;마크다운 문법 개요 익히기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/markdown-syntax/&quot;&gt;마크다운 문법 개요&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;블로그 메뉴 구성하기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;#테스트&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</summary></entry></feed>
+&lt;p&gt;블로그 메뉴 구성하기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</summary></entry></feed>

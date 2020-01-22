@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>github.io 블로그 시작하기 - From CMOS to real world</title>
-<meta name="description" content="GitHub Blog 서비스인 github.io 블로그 시작하기로 했다. ">
+<!-- begin _includes/seo.html --><title>Docker reference articles - From CMOS to real world</title>
+<meta name="description" content="도커 환경 설정에 도움을 받았던 블로그 게시글들 ">
 
 
   <meta name="author" content="cmoscicada">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="From CMOS to real world">
-<meta property="og:title" content="github.io 블로그 시작하기">
-<meta property="og:url" content="http://0.0.0.0:4000/blog/first-post/">
+<meta property="og:title" content="Docker reference articles">
+<meta property="og:url" content="http://0.0.0.0:4000/blog/2nd-post/">
 
 
-  <meta property="og:description" content="GitHub Blog 서비스인 github.io 블로그 시작하기로 했다. ">
+  <meta property="og:description" content="도커 환경 설정에 도움을 받았던 블로그 게시글들 ">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/blog/first-post/">
+<link rel="canonical" href="http://0.0.0.0:4000/blog/2nd-post/">
 
 
 
@@ -263,15 +263,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="github.io 블로그 시작하기">
-    <meta itemprop="description" content="GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.">
+    <meta itemprop="headline" content="Docker reference articles">
+    <meta itemprop="description" content="도커 환경 설정에 도움을 받았던 블로그 게시글들">
     <meta itemprop="datePublished" content="2020-01-22T00:00:00+09:00">
     <meta itemprop="dateModified" content="2020-01-22T00:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">github.io 블로그 시작하기
+          <h1 id="page-title" class="page__title" itemprop="headline">Docker reference articles
 </h1>
           
 <!--
@@ -294,21 +294,43 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.</p>
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#docker-with-gui">Docker with GUI</a>
+    <ul>
+      <li><a href="#movitation-inkscape">Movitation: Inkscape</a></li>
+      <li><a href="#building-an-inkscape-docker-image">Building an inkscape docker image</a></li>
+    </ul>
+  </li>
+</ul>
 
-<p>Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
-다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.</p>
+            </nav>
+          </aside>
+        
+        <p>도커를 배우고, 설정해 나가면서 도움을 받았던 페이지들을 정리해 보려고 한다.</p>
 
-<p>YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 github.io 블로그 시작하기이고
-마지막으로 수정된 시간은 2020-01-22이다.</p>
+<h2 id="docker-with-gui">Docker with GUI</h2>
+<h3 id="movitation-inkscape">Movitation: Inkscape</h3>
+<p>우분투로 환경을 바꾸면서 Visio 툴을 대체할 것이 필요했다. 검색을 하다가 최종적으로 <a href="https://inkscape.org/">inkscape</a> 툴로 정착하기로 하였다. Visio로는 주로 아래와 같은 작업들을 했었다.</p>
+<ul>
+  <li>논문 Figure
+    <ul>
+      <li>회로 스케메틱</li>
+      <li>회로 시스템 블락 다이어그램</li>
+      <li>그래프 / 표 작성</li>
+    </ul>
+  </li>
+</ul>
 
-<h1 id="todo-list--references">TODO LIST &amp; REFERENCES</h1>
-<hr />
-<p>마크다운 문법 개요 익히기: <a href="https://devinlife.com/howto%20github%20pages/markdown-syntax/">마크다운 문법 개요</a></p>
+<p>검색 끝에 이 익스텐션(<a href="https://github.com/fsmMLK/inkscapeCircuitSymbols">inkscapeCircuitSymbols</a>) 을 찾았고, 내 요구사항을 충족시켜 줄 수 있을것이라 판단.</p>
 
-<p>블로그 메뉴 구성하기: <a href="https://devinlife.com/howto%20github%20pages/blog-menu/">참고 링크</a></p>
+<h3 id="building-an-inkscape-docker-image">Building an inkscape docker image</h3>
+<p><a href="https://github.com/fsmMLK/inkscapeCircuitSymbols">inkscapeCircuitSymbols</a> 익스텐션이 계속 업데이트가 되지는 않을 것이기 때문에, 호환성을 맞추는 것이 중요할 것이다. 따라서 inkscape 셋업을 도커 이미지로 만들어서 사용하기로 했다.</p>
+
+<p>inkscape 가 GUI 툴이기 때문에 <a href="https://goodgodgd.github.io/ian-flow/archivers/docker-tutorial">Docker with GUI Tutorial</a> 페이지를 참조하여 세팅하였다.</p>
+
 
         
       </section>
@@ -366,22 +388,21 @@ GitHub Blog 서비스의 이름은 Pages이다.</p>
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=github.io+%EB%B8%94%EB%A1%9C%EA%B7%B8+%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0%20http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Ffirst-post%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Docker+reference+articles%20http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2F2nd-post%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Ffirst-post%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2F2nd-post%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Ffirst-post%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2F2nd-post%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/blog/2nd-post/" class="pagination--pager" title="Docker reference articles
-">Previous</a>
+      <a href="#" class="pagination--pager disabled">Previous</a>
     
     
-      <a href="/blog/blog-todo/" class="pagination--pager" title="Blog 세팅 플랜
+      <a href="/blog/first-post/" class="pagination--pager" title="github.io 블로그 시작하기
 ">Next</a>
     
   </nav>
@@ -459,7 +480,7 @@ GitHub Blog 서비스의 이름은 Pages이다.</p>
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/blog/2nd-post/" rel="permalink">Docker reference articles
+        <a href="/blog/first-post/" rel="permalink">github.io 블로그 시작하기
 </a>
       
     </h2>
@@ -481,7 +502,7 @@ GitHub Blog 서비스의 이름은 Pages이다.</p>
     
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> January 22 2020</p>
     
-    <p class="archive__item-excerpt" itemprop="description">도커 환경 설정에 도움을 받았던 블로그 게시글들
+    <p class="archive__item-excerpt" itemprop="description">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
 </p>
   </article>
 </div>
@@ -548,8 +569,8 @@ GitHub Blog 서비스의 이름은 Pages이다.</p>
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://0.0.0.0:4000/blog/first-post/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/blog/first-post"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://0.0.0.0:4000/blog/2nd-post/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/blog/2nd-post"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');

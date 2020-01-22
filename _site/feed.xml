@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-22T13:10:13+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">github.io 블로그 시작하기</title><link href="http://0.0.0.0:4000/blog/first-post/" rel="alternate" type="text/html" title="github.io 블로그 시작하기" /><published>2020-01-22T00:00:00+00:00</published><updated>2020-01-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/blog/first-post</id><content type="html" xml:base="http://0.0.0.0:4000/blog/first-post/">&lt;p&gt;GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-22T13:15:54+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">github.io 블로그 시작하기</title><link href="http://0.0.0.0:4000/blog/first-post/" rel="alternate" type="text/html" title="github.io 블로그 시작하기" /><published>2020-01-22T00:00:00+00:00</published><updated>2020-01-22T00:00:00+00:00</updated><id>http://0.0.0.0:4000/blog/first-post</id><content type="html" xml:base="http://0.0.0.0:4000/blog/first-post/">&lt;p&gt;GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
 GitHub Blog 서비스의 이름은 Pages이다.&lt;/p&gt;
 
 &lt;p&gt;Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
@@ -12,4 +12,6 @@ GitHub Blog 서비스의 이름은 Pages이다.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;마크다운 문법 개요 익히기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/markdown-syntax/&quot;&gt;마크다운 문법 개요&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;블로그 메뉴 구성하기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</summary></entry></feed>
+&lt;p&gt;블로그 메뉴 구성하기: &lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;참고 링크&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;#테스트&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Blog" /><summary type="html">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</summary></entry></feed>

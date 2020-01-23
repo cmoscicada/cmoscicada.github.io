@@ -13,6 +13,7 @@ toc: true
 
 # github.io 블로그 세팅 
 ***
++ cicada 이미지 따기
 + [github.io 블로그 TODO list](/blog/blog-todo)
 
 # TT-Camel: table tennis equipment price tracker
@@ -68,6 +69,13 @@ toc: true
 # 스마트 스토어 관리
 ***
 친척이 운영하는 스마트 스토어를 전반적으로 봐달라는 요청이 있어서 요청들을 정리하고 시간이 남을때마다 하나씩 해보려고 한다.
+**스마트 스토어는 오픈마켓과는 다르게 키워드 중심의 쇼핑이라고 한다. 상품명 SEO를 빅 데이터 기반으로 추출하고 제안할 수 있어야 한다.**
 
 ## 참고하면 좋을 것 같은 사이트/자료
 + [상품 업로드](https://blog.naver.com/tripblog/221509453575)
+
+
+# 퀀트 트레이딩 봇 만들기 
+
+## 참고할 페이지들
++ [코딩배워투자하자](https://www.notion.so/8e6655ab5c724e199747fbc9bf0b6e5a): 실라버스 참조하기 

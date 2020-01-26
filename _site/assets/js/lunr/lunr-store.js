@@ -15,7 +15,7 @@ var store = [{
         "url": "http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/",
         "teaser":"http://0.0.0.0:4000/"},{
         "title": "Blog 세팅 플랜",
-        "excerpt":"Blog set-up todo list      블로그 메뉴 구성하기   카테고리 및 태그 목록 구성   블로그 댓글 기능 구성   커스텀 도메인 등록   한글 폰트 변경        구글 검색엔진 등록 및 분석 툴 적용   네이버/다음/빙 엔진 등록   구글 에드센스   ","categories": ["Blog"],
+        "excerpt":"Blog set-up todo list      마크다운 기본 문법 1   마크다운 기봄 문법 2   블로그 메뉴 구성하기   카테고리 및 태그 목록 구성   블로그 댓글 기능 구성   커스텀 도메인 등록   한글 폰트 변경   구글 검색엔진 등록 및 분석 툴 적용   네이버/다음/빙 엔진 등록   구글 에드센스   ","categories": ["Blog"],
         "tags": ["Blog"],
         "url": "http://0.0.0.0:4000/blog/blog-todo/",
         "teaser":"http://0.0.0.0:4000/"},{

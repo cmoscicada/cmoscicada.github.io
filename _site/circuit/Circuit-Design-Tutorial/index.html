@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Blog 세팅 플랜 - From CMOS to real world</title>
-<meta name="description" content="블로그 설정 TODO list ">
+<!-- begin _includes/seo.html --><title>Circuit design tutorials - From CMOS to real world</title>
+<meta name="description" content="Good Circuit design references ">
 
 
   <meta name="author" content="cmoscicada">
@@ -19,11 +19,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="From CMOS to real world">
-<meta property="og:title" content="Blog 세팅 플랜">
-<meta property="og:url" content="http://0.0.0.0:4000/blog/blog-todo/">
+<meta property="og:title" content="Circuit design tutorials">
+<meta property="og:url" content="http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/">
 
 
-  <meta property="og:description" content="블로그 설정 TODO list ">
+  <meta property="og:description" content="Good Circuit design references ">
 
 
 
@@ -44,7 +44,7 @@
   
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/blog/blog-todo/">
+<link rel="canonical" href="http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/">
 
 
 
@@ -265,15 +265,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Blog 세팅 플랜">
-    <meta itemprop="description" content="블로그 설정 TODO list">
+    <meta itemprop="headline" content="Circuit design tutorials">
+    <meta itemprop="description" content="Good Circuit design references">
     <meta itemprop="datePublished" content="2020-01-23T00:00:00+09:00">
     <meta itemprop="dateModified" content="2020-01-23T00:00:00+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Blog 세팅 플랜
+          <h1 id="page-title" class="page__title" itemprop="headline">Circuit design tutorials
 </h1>
           
 <!--
@@ -299,29 +299,62 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              
+              <ul class="toc__menu">
+  <li><a href="#sscs-lecture-slides">SSCS Lecture Slides</a>
+    <ul>
+      <li><a href="#avoiding-noise-coupling-in-mixed-signal-design">Avoiding noise coupling in mixed signal design</a></li>
+      <li><a href="#cdr">CDR</a></li>
+      <li><a href="#analog">Analog</a></li>
+      <li><a href="#adcdac">ADC/DAC</a></li>
+      <li><a href="#ldo">LDO</a></li>
+    </ul>
+  </li>
+</ul>
 
             </nav>
           </aside>
         
-        <p>Blog set-up todo list</p>
-
+        <h1 id="sscs-lecture-slides">SSCS Lecture Slides</h1>
+<h2 id="avoiding-noise-coupling-in-mixed-signal-design">Avoiding noise coupling in mixed signal design</h2>
 <ul>
-  <li><a href="https://devinlife.com/howto%20github%20pages/blog-menu/">블로그 메뉴 구성하기</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/category-tag/">카테고리 및 태그 목록 구성</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/blog-disqus/">블로그 댓글 기능 구성</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/custom-domain/">커스텀 도메인 등록</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/set-font/">한글 폰트 변경</a></li>
+  <li><a href="http://www.ewh.ieee.org/r6/scv/ssc/Sept2009.pdf">Designing CMOS Wireless System-on-a-chip</a>: from page 18</li>
 </ul>
 
-<hr />
+<p>[TODO] 제대로 읽고 내용 정리해서 남겨놓기</p>
 
+<h2 id="cdr">CDR</h2>
 <ul>
-  <li><a href="https://devinlife.com/howto%20github%20pages/google-search-console-and-analytics/">구글 검색엔진 등록 및 분석 툴 적용</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/register-search-engine/">네이버/다음/빙 엔진 등록</a></li>
-  <li><a href="https://devinlife.com/howto%20github%20pages/adsense/">구글 에드센스</a></li>
+  <li><a href="http://www.ewh.ieee.org/r6/scv/ssc/May2109.pdf">Clock and Data Recovery in HighSpeed Wireline Communications</a></li>
+  <li>Design Strategy - system &amp; architecture</li>
+  <li>Circuit design example</li>
+  <li>Sampler (CML latch + Sense Amp. + Two-stage buffer)</li>
+  <li>Charge Pump / Loop filter</li>
+  <li><strong>Measurement Setup</strong></li>
+  <li>Overall setup</li>
+  <li>Jitter tolerance test: how to generate external sinusoidal jitter</li>
+  <li>Questions</li>
+  <li><strong>What is JTAG TAP &amp; JTAP scan siganls?</strong> Is JTAG insensitive to external noise?</li>
 </ul>
 
+<h2 id="analog">Analog</h2>
+
+<p>[TODO] 아래 링크 정리하자</p>
+
+<p><a href="https://blog.naver.com/narabaljeon/220777097288">1 on-chip current reference</a></p>
+
+<h2 id="adcdac">ADC/DAC</h2>
+
+<p><a href="http://www.ewh.ieee.org/r6/scv/ssc/Feb1209.pdf">chopper, bootrapped switch, amp, latch, etc…</a></p>
+
+<h2 id="ldo">LDO</h2>
+
+<p>[TODO] 아래 링크 정리하자</p>
+
+<p><a href="https://blog.naver.com/narabaljeon/220818346841">1</a></p>
+
+<p><a href="https://blog.naver.com/narabaljeon/221095985247">2_good</a></p>
+
+<p><a href="https://site.ieee.org/scv-sscs/files/2010/02/LDO-IEEE_SSCS_Chapter.pdf">3</a></p>
 
         
       </section>
@@ -342,7 +375,11 @@
     
       
       
-      <a href="/tags/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+      <a href="/tags/#circuit" class="page__taxonomy-item" rel="tag">Circuit</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#cmos" class="page__taxonomy-item" rel="tag">CMOS</a>
     
     </span>
   </p>
@@ -363,7 +400,7 @@
     
       
       
-      <a href="/categories/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+      <a href="/categories/#circuit" class="page__taxonomy-item" rel="tag">Circuit</a>
     
     </span>
   </p>
@@ -379,22 +416,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Blog+%EC%84%B8%ED%8C%85+%ED%94%8C%EB%9E%9C%20http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Fblog-todo%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Circuit+design+tutorials%20http%3A%2F%2F0.0.0.0%3A4000%2Fcircuit%2FCircuit-Design-Tutorial%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Fblog-todo%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fcircuit%2FCircuit-Design-Tutorial%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fblog%2Fblog-todo%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fcircuit%2FCircuit-Design-Tutorial%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/circuit/Circuit-Design-Tutorial/" class="pagination--pager" title="Circuit design tutorials
+      <a href="/blog/first-post/" class="pagination--pager" title="github.io 블로그 시작하기
 ">Previous</a>
     
     
-      <a href="/blog/markdown-syn-test/" class="pagination--pager" title="Markdown 문법 연습 및 예제
+      <a href="/blog/blog-todo/" class="pagination--pager" title="Blog 세팅 플랜
 ">Next</a>
     
   </nav>
@@ -472,7 +509,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/circuit/Circuit-Design-Tutorial/" rel="permalink">Circuit design tutorials
+        <a href="/blog/blog-todo/" rel="permalink">Blog 세팅 플랜
 </a>
       
     </h2>
@@ -494,7 +531,7 @@
     
       <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> January 23 2020</p>
     
-    <p class="archive__item-excerpt" itemprop="description">Good Circuit design references
+    <p class="archive__item-excerpt" itemprop="description">블로그 설정 TODO list
 </p>
   </article>
 </div>
@@ -651,8 +688,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://0.0.0.0:4000/blog/blog-todo/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/blog/blog-todo"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/circuit/Circuit-Design-Tutorial"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');

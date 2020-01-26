@@ -9,8 +9,18 @@ var store = [{
         "tags": ["Blog"],
         "url": "http://0.0.0.0:4000/blog/first-post/",
         "teaser":"http://0.0.0.0:4000/"},{
+        "title": "Circuit design tutorials",
+        "excerpt":"SSCS Lecture Slides Avoiding noise coupling in mixed signal design Designing CMOS Wireless System-on-a-chip: from page 18 [TODO] 제대로 읽고 내용 정리해서 남겨놓기 CDR Clock and Data Recovery in HighSpeed Wireline Communications Design Strategy - system &amp; architecture Circuit design example Sampler (CML latch + Sense Amp. + Two-stage buffer)...","categories": ["Circuit"],
+        "tags": ["Circuit","CMOS"],
+        "url": "http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/",
+        "teaser":"http://0.0.0.0:4000/"},{
         "title": "Blog 세팅 플랜",
         "excerpt":"Blog set-up todo list      블로그 메뉴 구성하기   카테고리 및 태그 목록 구성   블로그 댓글 기능 구성   커스텀 도메인 등록   한글 폰트 변경        구글 검색엔진 등록 및 분석 툴 적용   네이버/다음/빙 엔진 등록   구글 에드센스   ","categories": ["Blog"],
         "tags": ["Blog"],
         "url": "http://0.0.0.0:4000/blog/blog-todo/",
+        "teaser":"http://0.0.0.0:4000/"},{
+        "title": "Markdown 문법 연습 및 예제",
+        "excerpt":"Markdown syntax examples namu.wiki 파운드리 페이지 나무위키에서 편집을 누른 뒤에 RAW 파일을 그대로 붙여넣었으나, auto numbering 은 되지 않았다. Auto numbering reference [link] 확실하지는 않지만, github.io 에서는 theme 모드만 지원하기 때문에, 위 링크 방법을 사용할 수 없는 것 같다. 일단 auto numbering 은 스킵. 목차 내용 hide/show 버튼 사용 나무위키...","categories": ["Blog"],
+        "tags": ["Markdown","Wiki"],
+        "url": "http://0.0.0.0:4000/blog/markdown-syn-test/",
         "teaser":"http://0.0.0.0:4000/"}]

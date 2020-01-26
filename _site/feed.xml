@@ -1,4 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-23T16:30:54+09:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">Blog 세팅 플랜</title><link href="http://0.0.0.0:4000/blog/blog-todo/" rel="alternate" type="text/html" title="Blog 세팅 플랜" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/blog-todo</id><content type="html" xml:base="http://0.0.0.0:4000/blog/blog-todo/">&lt;p&gt;Blog set-up todo list&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-01-24T16:36:11+09:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">From CMOS to real world</title><subtitle></subtitle><author><name>cmoscicada</name></author><entry><title type="html">Markdown 문법 연습 및 예제</title><link href="http://0.0.0.0:4000/blog/markdown-syn-test/" rel="alternate" type="text/html" title="Markdown 문법 연습 및 예제" /><published>2020-01-24T00:00:00+09:00</published><updated>2020-01-24T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/markdown-syn-test</id><content type="html" xml:base="http://0.0.0.0:4000/blog/markdown-syn-test/">&lt;h1 id=&quot;markdown-syntax-examples&quot;&gt;Markdown syntax examples&lt;/h1&gt;
+&lt;h2 id=&quot;namuwiki-파운드리-페이지&quot;&gt;namu.wiki &lt;a href=&quot;https://namu.wiki/w/%ED%8C%8C%EC%9A%B4%EB%93%9C%EB%A6%AC&quot;&gt;파운드리&lt;/a&gt; 페이지&lt;/h2&gt;
+
+&lt;p&gt;나무위키에서 편집을 누른 뒤에 RAW 파일을 그대로 붙여넣었으나, auto numbering 은 되지 않았다.&lt;/p&gt;
+
+&lt;h2 id=&quot;auto-numbering-reference-link&quot;&gt;Auto numbering reference &lt;a href=&quot;https://support.typora.io/Auto-Numbering/&quot;&gt;[link]&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;확실하지는 않지만, github.io 에서는 theme 모드만 지원하기 때문에, 위 &lt;a href=&quot;https://support.typora.io/Auto-Numbering/&quot;&gt;링크&lt;/a&gt; 방법을 사용할 수 없는 것 같다.&lt;/p&gt;
+
+&lt;p&gt;일단 auto numbering 은 스킵.&lt;/p&gt;
+
+&lt;h2 id=&quot;목차-내용-hideshow-버튼-사용&quot;&gt;목차 내용 hide/show 버튼 사용&lt;/h2&gt;
+&lt;p&gt;나무위키 처럼 긴 문단이 있을때는 내용을 hide/show 할 수 있었으면 좋겠다. 찾아보자.&lt;/p&gt;
+
+&lt;p&gt;[목차]&lt;/p&gt;
+
+&lt;p&gt;== 본 의미 ==
+파운드리란 본래 [[주조]]공정을 통해 금속제품을 생산하는 공장을 말한다. 즉 금속을 녹여 거푸집에 넣고 가공하는 생산시설인 주조소를 가르키는 말이다.&lt;/p&gt;
+
+&lt;p&gt;== 반도체 위탁생산업체 ==
+그러나 오늘날 언론에서 주로 사용되는 파운드리란 반도체 산업에서의 위탁생산 전문업체를 의미한다. 즉, 설계와 기술 개발을 배제하고 [[팹]]을 통한 반도체 생산에 치중하는, [[팹리스]] 업체와 반대되는 개념의 업체들을 말한다. 반도체 제조회사가 설계에 따라 제조만 담당하는 파운드리 업체로 탈바꿈하는 추세의 원인은, 제조업체들이 타고난 설계능력의 한계, 그리고 기밀 유지에 민감한 반도체 업계의 특성 때문이기도 하다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;80년대 중반 뛰어난 기술력을 가졌지만 자본 및 생산시설이 부족한 반도체 설계업체들은 [[IDM#s-4&lt;/td&gt;
+      &lt;td&gt;IDM]]의 과잉설비를 이용해야 했으나, 이런 업체들의 생산소요를 안정적으로 감당할 수 있는 파운드리 업체의 필요성이 인지되기 시작했다. 이러한 배경과 맞물려 창업한 [[TSMC]]는 팹리스 회사들의 기반을 제공하며 성장하게 되었고, [[AMD]]와 [[인텔]]을 비롯한 IDM 업체들 또한 파운드리 사업을 분리하는 움직임을 보이게 되었다.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;삼성전자의 파운드리 사업의 경우 DS(Device Solutions) 부문 내 시스템 LSI 사업부의 파운드리 사업팀으로 존재하였으나 2017년 5월 12일 조직개편 설명회를 통해 파운드리 사업부를 분리해 독자적인 사업부로 승격하는 계획을 발표한 바 있다.[[http://www.yonhapnews.co.kr/bulletin/2017/05/12/0200000000AKR20170512062900003.HTML&lt;/td&gt;
+      &lt;td&gt;#]]&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;도식적으로 반도체 기업을 생산공정에 따라 자사 브랜드의 반도체를 설계하며 팹(Fab)을 가지고 생산하는 종합반도체(IDM), 팹 없이 설계만 전문으로 하는 팹리스(Fabless), 이런 팹리스의 주문을 받아 생산을 담당하는 파운드리(Foundry)로 구분하나, 최근에 이르러서는 반도체 미세공정의 기술적 난이도 및 비용증가로 절대대수의 IDM들 또한 비용을 줄이기 위해 첨단공정에서는 파운드리에 생산을 위탁하는 팹라이트(Fab-light) 현상이 나타나고 있으며,[* 단 이는 시스템 반도체 기업에 한정되며, 하이닉스나 마이크론 같은 메모리 업체의 경우 소품종 대량생산 체제로 공정 자체가 경쟁력에 직결되므로 생산을 외부에 위탁하지는 않는다. 참고로 반도체 CAPEX 10위권 안에 이름을 올리는 시스템반도체 IDM은 인텔과 유럽의 ST마이크로가 전부인데, 후자의 투자규모는 1조가 채 되지 않아 그 비중이 극히 미미하다. 삼성이나 TSMC, 인텔은 기본이 10조다.] 반대로 IDM 중 미세공정 경쟁에 뒤처지지 않은 [[삼성전자]]나 [[SK하이닉스]], [[인텔]] 등은 파운드리 분야에까지 손을 뻗고 있다. 다만 점유율 10위권 안에 이름을 올리는 IDM은 [[삼성전자]]가 유일하며 하이닉스나 인텔을 비롯한 여타 IDM의 비중은 극히 미미한 편이다.&lt;/p&gt;
+
+&lt;p&gt;파운더리 업체는 완성된 칩을 생산해 파는게 아니고 실리콘웨이퍼에 고객이 설계한 대로 특정 공정으로 처리해서 웨이퍼 채로 납품한다. 이를 검사하고 잘라서 칩으로 만드는 것은 기본적으론 다른 반도체 패키징 업체가 담당한다. 따라서 가격도 칩 당 얼마가 아니고 특정공정으로 처리한 웨이퍼 1장당으로 매긴다. 예를 들어 14nm FinFET 공정 300mm 웨이퍼 한 장 당 1200달러 이런 식이다. 양품칩 수율은 고객의 설계에 따라 다르므로 기본적으로 고객의 책임이고 납품가격과 큰 관계없다.&lt;/p&gt;
+
+&lt;p&gt;반도체 설계업체가 설계한 칩을 파운더리 업체에 생산을 의뢰하기위해 설계와 레이아웃 과 검증을 끝내는 것을 tape out 이라고 하는데 넘기는 것은 회로도가 아니라 배치가 끝난  도형정보(보통Gerber file 이라는 배치정보로 마치 도시의 항공사진이나 지도 또는 기계설계의 AutoCAD 의 DXF 파일에 해당)로 이걸 기계가공 NC 머신에 종이테이프로 입력하듯 물리적 마스크를 만든다.&lt;/p&gt;
+
+&lt;p&gt;이 분야의 절대강자는 [[대만]]으로 시장 점유율 10위권 안에 점유율 48.1%를 기록하는 업계 1위 [[TSMC]]를 포함해서 4위인 [[UMC]], 그 아래로 [[파워칩]]에 [[뱅가드]]까지 10위권 안에 무려 4개의 기업이 대만 국적이다.&lt;/p&gt;
+
+&lt;p&gt;한국은 [[삼성전자]]와 [[DB하이텍]]이 각각 세계 2위, 10위의 순위를 기록하고 있다.[* Pure-Play 파운드리로 삼성을 제외하면 DB하이텍도 세계 9위다.]
+=== 시장 점유율 ===
+2019년 1분기 기준, 삼성전자가 2위 까지 올라왔고 점유율도 상당히 많이 상승하였다. [[http://biz.chosun.com/site/data/html_dir/2019/04/16/2019041601905.html|2019년 1분기 기준]]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[[TSMC]] 48.1%&lt;/li&gt;
+  &lt;li&gt;[[삼성전자]] 19.1%&lt;/li&gt;
+  &lt;li&gt;[[GlobalFoundries]] 8.4%&lt;/li&gt;
+  &lt;li&gt;[[UMC]] 7.2%&lt;/li&gt;
+  &lt;li&gt;[[SMIC]] 4.5%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;=== 대표적인 파운드리 업체 ===&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[[대만]]&lt;/li&gt;
+  &lt;li&gt;’’’[[TSMC]]’’’
+  ‘'’파운드리 시장 점유율 48.1%의 업계 1위이자 반도체 업계의 슈퍼을’’’. 대만 기업 부동의 시가총액 및 영업이익 1위 회사이며, 삼성전자 반도체 사업부나 인텔과 견주어도 크게 뒤지지 않는 초거대 기업. 미세공정 기술력은 물론이고 전세계의 모든 파운더리를 통틀어 압도적인 생산능력(CAPA), 풍부한 설계자산(IP), 고객사에게 원스톱 형태로 제공할 수 있는 후공정 서비스까지 그야말로 파운드리 업계의 끝판왕이다.&lt;/li&gt;
+  &lt;li&gt;[[UMC]]
+  세계 4위이자 대만 파운드리 [[콩라인]].&lt;/li&gt;
+  &lt;li&gt;[[Powerchip]]&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[[Vangurad]]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[[한국]]&lt;/li&gt;
+  &lt;li&gt;’’’[[삼성전자]] 파운드리 사업부’’’
+  파운드리 업계의 초강력 다크호스. TSMC를 제외하면 경쟁하는 파운더리들과 체급 자체가 다르기 때문에 미세공정에서 절대적으로 앞서고 있으며 2010년대 들어 매출이 무섭게 상승하고 있다. 2018년에는 연내달성을 목표로 ‘시장점유율 2위-매출 100억 달러’를 제시했는데, 이를 무난히 달성함으로 [[GlobalFoundries|글로벌파운드리]]를 제치고 업계 2위에 안착했다. 최근에는 글로벌파운드리가 [[https://news.joins.com/article/22933492|7nm급 공정 개발을 무기한 연기]]하거나, 인텔이 [[http://www.zdnet.co.kr/view/?no=20180907124834&amp;amp;re=R_20190116152956|7nm급 EUV 공정을 뒤로 미루는 등]], 다른 파운드리 업체들이 7nm 공정에 고전하면서, 현재 성공적으로 7nm 공정을 이용한 양산능력을 갖춘 곳은 삼성과 TSMC 둘 뿐이다. 하지만, 두 업체 간 수주량, 실장 생산량엔 큰 차이가 있다.&lt;/li&gt;
+  &lt;li&gt;[[동부하이텍]]
+  한국 유일의 순수(Pure-Play) 파운드리 업체. 전신은 아남반도체로 [[1968년]]에 설립된 대한민국 최초의 반도체기업이었으나 90년대 후반 외환위기때 [[아남그룹]]이 해체된뒤 [[동부그룹]]으로 넘어왔다.[* 일부만 넘어왔고 나머지는 앰코로 이어진다.] 그러나 10년 넘게 누적된 손실이 수조원에 달하며 [[동부그룹]]이 반쯤 해체되는 원흉이기도 했으나 2010년대 이후 턴어라운드에 성공, 영업이익률이 20%를 넘는 알짜기업으로 거듭났다. 동부가 한창 구조조정에 집중하던 당시 중국 SMIC나 이스라엘 타워재즈에 매각될 위기에 처하기도 했으나 결과적으로 모두 무산되었다. IDM 포함 세계 10위, 순수 파운드리 기준으로는 세계 9위의 점유율을 기록하고 있으며, 2017년 기준 매출액은 6,797억원 수준이다.&lt;/li&gt;
+  &lt;li&gt;[[매그나칩]]
+  구 하이닉스 비메모리 사업부 및 LG반도체 전신. 매그나칩은 동부하이텍과 달리 DDI, PMIC 등을 자체 설계하는 IDM이기도 하다. 분사 이후 2017년부터 턴어라운드를 하며, 2018년 8,000억원의 매출을 냈다. 대한민국 최초 뉴욕증시상장(NYSE) 회사이다. 몇년 전부터, LG그룹에서 “LG디스플레이+실리콘웍스+매그나칩반도체= LG반도체(IDM 종합반도체)” M&amp;amp;A를 원한다는 소문이 있다. 그 이유는 매그나칩반도체는 구 LG반도체의 전신이며, 반도체 Fab(공장) 및 기술력(OLED 강점)을 인수하고 싶어한다. 다만, 노후화된 공장, 부채 및 높은 임금과 2,500여명의 직원들을 다 커버 할 수 있을지 의문이다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[[SK하이닉스|SK하이닉스시스템IC]]
+  하이닉스가 파운드리 사업부를 분사하며 설립. 삼성에 비하면 점유율은 극히 미미한 편이다. SK하이닉스 시스템IC의 2017년 기준 매출은 1,200억 정도 수준이며, 중국 합작법인(SK하이닉스 지분 50.1% 중국 지분49.9%)으로 인수가 되었다. SK하이닉스 시스템IC가 2년 내에 국내의 모든 사업장을 처분하고 중국으로 떠난다는 것은 이미 반도체 업계에서는 알려진 사실이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[[미국]]&lt;/li&gt;
+  &lt;li&gt;’’’[[GlobalFoundries|글로벌파운드리]]’’’
+  [[AMD]]가 생산(Fab) 부문을 분사, [[아부다비]]에 매각하여 설립되었다. 14년에는 [[IBM]]의 라인을 1조원의 ‘'’돈을 받고’’’ 인수하기도. 규모에서나 미세공정 수준에서나 TSMC, 삼성에 밀린다는 [[안습]]한 이미지가 있다. 근래에는 여러 좋지 않는 소식들이 들려오는 중인데, 자사의 300mm IBM 팹을 매각하기도 하고 인수설이 떠돌기까지 할 정도로 썩 낙관적이지 못한 분위기다. 19년 기준 세계 3위를 기록하고 있다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[[인텔]]
+  &lt;del&gt;2010년대 들어 파운드리 사업부를 신설하며 적극 진출했으나 삼성에 비하면 20위권에도 이름을 못 올리며 사실상 존재감을 상실한 수준.&lt;/del&gt; 사실상 비공개라 외부에서 유추만 하고 있기에 순위권 밖일 뿐. ‘'’외부업체의 위탁’'’을 받아 생산하는 것은 이제 걸음마 수준이지만, 자사 물량만 해도 별도로 분리된 공개 회사였다면 [[TSMC]]를 능가할 것이라는게 정설. [[네트워크%20카드|NIC]] 나 [[WIFI]] 부분도 타사보다 수준이 높다고 알려져 있다. 그도 그럴 것이 지금까지 생산한 인텔 CPU와 보드를 컨트롤하기 위한 인텔 칩이 모두 이 회사에서 만들어 지는데, 그 수도 엄청나지만 서버군을 생각하면 가격대가… 다만, 2018년 현재 10nm 공정 생산이 실패한 것으로 알려지면서 향후 기술력 확보에 의문 부호가 붙고 있다. 때문에 인텔 CPU의 틱톡, PAO 전략에도 차질이 생겨 2020년까지 6년이란 세월을 데스크탑 CPU는 14nm 공정을 벗어나지 못하고 있으며, 이로 인한 14nm 공정에 대한 수요 폭증으로 메인보드 칩셋도 구식 공정인 22nm로 돌려버리는 등 어떻게든 14nm 공정으로 시장을 버텨보려고 안간힘중이다. 그래서 생긴 별명이 [[방망이 깎던 노인|14nm 깎는 장인]].&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[[중국]]&lt;/li&gt;
+  &lt;li&gt;[[SMIC]]
+  세계 5위의 파운더리이자 중국 1위 업체. 중국 정부 차원에서 적극 밀어주고 있으며 [[홍콩]] 증시에 상장된 기업이기도 하다. 물론 미세공정 수준에서는 상위 4개 기업에 비하면 크게 밀린다.[[http://m.ddaily.co.kr/m/m_article.html?no=155081|참고기사]]&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[[Hua Hong Semi]]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기타&lt;/li&gt;
+  &lt;li&gt;[[TowerJazz]]
+  [[이스라엘]]의 기업이다.&lt;/li&gt;
+  &lt;li&gt;[[X-Fab]]
+  [[유럽]] 기반.&lt;/li&gt;
+  &lt;li&gt;[[후지쯔]]
+  [[일본]]의 [[IDM|종합반도체기업]].&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;== [[워크래프트 2]]의 건물 ==
+[[주조소]]&lt;/p&gt;
+
+&lt;p&gt;[[분류:반도체]]&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Markdown" /><category term="Wiki" /><summary type="html">나무위키 페이지를 통해서 마크다운 문법 연습하기</summary></entry><entry><title type="html">Circuit design tutorials</title><link href="http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/" rel="alternate" type="text/html" title="Circuit design tutorials" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial</id><content type="html" xml:base="http://0.0.0.0:4000/circuit/Circuit-Design-Tutorial/">&lt;h1 id=&quot;sscs-lecture-slides&quot;&gt;SSCS Lecture Slides&lt;/h1&gt;
+&lt;h2 id=&quot;avoiding-noise-coupling-in-mixed-signal-design&quot;&gt;Avoiding noise coupling in mixed signal design&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ewh.ieee.org/r6/scv/ssc/Sept2009.pdf&quot;&gt;Designing CMOS Wireless System-on-a-chip&lt;/a&gt;: from page 18&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[TODO] 제대로 읽고 내용 정리해서 남겨놓기&lt;/p&gt;
+
+&lt;h2 id=&quot;cdr&quot;&gt;CDR&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ewh.ieee.org/r6/scv/ssc/May2109.pdf&quot;&gt;Clock and Data Recovery in HighSpeed Wireline Communications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Design Strategy - system &amp;amp; architecture&lt;/li&gt;
+  &lt;li&gt;Circuit design example&lt;/li&gt;
+  &lt;li&gt;Sampler (CML latch + Sense Amp. + Two-stage buffer)&lt;/li&gt;
+  &lt;li&gt;Charge Pump / Loop filter&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Measurement Setup&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Overall setup&lt;/li&gt;
+  &lt;li&gt;Jitter tolerance test: how to generate external sinusoidal jitter&lt;/li&gt;
+  &lt;li&gt;Questions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What is JTAG TAP &amp;amp; JTAP scan siganls?&lt;/strong&gt; Is JTAG insensitive to external noise?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;analog&quot;&gt;Analog&lt;/h2&gt;
+
+&lt;p&gt;[TODO] 아래 링크 정리하자&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.naver.com/narabaljeon/220777097288&quot;&gt;1 on-chip current reference&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;adcdac&quot;&gt;ADC/DAC&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ewh.ieee.org/r6/scv/ssc/Feb1209.pdf&quot;&gt;chopper, bootrapped switch, amp, latch, etc…&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ldo&quot;&gt;LDO&lt;/h2&gt;
+
+&lt;p&gt;[TODO] 아래 링크 정리하자&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.naver.com/narabaljeon/220818346841&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.naver.com/narabaljeon/221095985247&quot;&gt;2_good&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://site.ieee.org/scv-sscs/files/2010/02/LDO-IEEE_SSCS_Chapter.pdf&quot;&gt;3&lt;/a&gt;&lt;/p&gt;</content><author><name>cmoscicada</name></author><category term="Circuit" /><category term="CMOS" /><summary type="html">Good Circuit design references</summary></entry><entry><title type="html">Blog 세팅 플랜</title><link href="http://0.0.0.0:4000/blog/blog-todo/" rel="alternate" type="text/html" title="Blog 세팅 플랜" /><published>2020-01-23T00:00:00+09:00</published><updated>2020-01-23T00:00:00+09:00</updated><id>http://0.0.0.0:4000/blog/blog-todo</id><content type="html" xml:base="http://0.0.0.0:4000/blog/blog-todo/">&lt;p&gt;Blog set-up todo list&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://devinlife.com/howto%20github%20pages/blog-menu/&quot;&gt;블로그 메뉴 구성하기&lt;/a&gt;&lt;/li&gt;
